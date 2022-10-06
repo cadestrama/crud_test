@@ -1,0 +1,5 @@
+database -crudmovie
+1. movies
+ - movie_name, image, category_id
+2. categories
+ -name
