@@ -12,3 +12,9 @@ blade
 3. models
  - Movie with migration
  - Category with migration
+
+4. add to model eloquent relationship 
+
+ public function category(){
+        return $this->belongsTo(Category::class);
+    }

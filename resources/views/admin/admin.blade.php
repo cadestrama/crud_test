@@ -120,6 +120,7 @@
                           <tr>
                             <th scope="col">#</th>
                             <th scope="col">Movie Name</th>
+                            <th scope="col">Category</th>
                             <th scope="col">Mockup</th>
                             <th scope="col">Action</th>
             
@@ -131,6 +132,7 @@
                          <tr>
                             <th scope="row">{{$movie->id}}</th>
                             <td>{{$movie->movie_name}}</td>
+                            <td>{{$movie->category->name}}</td>
                             <td><img src="/storage/{{$movie->image}}" class="w-20" alt=""></td>
                             <td>
                         
