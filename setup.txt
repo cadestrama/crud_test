@@ -3,3 +3,12 @@ database -crudmovie
  - movie_name, image, category_id
 2. categories
  -name
+
+blade
+1. admin folder
+ - admin.blade.php
+2. controller
+ - AdminController
+3. models
+ - Movie with migration
+ - Category with migration
